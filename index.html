@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matěj Maršík | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+
+    <header class="bg-gray-800 shadow-md py-6 px-4 sticky top-0 z-10">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-blue-400 tracking-tight">Matěj Maršík</h1>
+            <nav>
+                <a href="#about" class="text-gray-300 hover:text-white px-3 transition">O mně</a>
+                <a href="#skills" class="text-gray-300 hover:text-white px-3 transition">Dovednosti</a>
+                <a href="#projects" class="text-gray-300 hover:text-white px-3 transition">Projekty</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <section id="about" class="mb-16">
+            <h2 class="text-2xl font-semibold mb-4 border-b-2 border-blue-500 pb-2 inline-block">O mně</h2>
+            <p class="text-lg text-gray-300 leading-relaxed bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-700">
+                Ahoj, jsem student 3.IT na SPŠ a VOŠ Příbram. Baví mě programování, vývoj webových aplikací a hardwarové projekty. Ve volném čase se věnuji investování do ETF a správě herních serverů.
+            </p>
+        </section>
+
+        <section id="skills" class="mb-16">
+            <h2 class="text-2xl font-semibold mb-4 border-b-2 border-blue-500 pb-2 inline-block">Moje dovednosti</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-700">
+                <ul class="list-disc list-inside text-gray-300 space-y-2 text-lg">
+                    <li><span class="font-medium text-white">Programování:</span> C# WinForms, PHP, Python, JavaScript</li>
+                    <li><span class="font-medium text-white">Web:</span> HTML, CSS, Tailwind CSS</li>
+                    <li><span class="font-medium text-white">Hardware:</span> Arduino, mikrokontrolery, senzory</li>
+                    <li><span class="font-medium text-white">Ostatní:</span> Správa serverů (FiveM), Git, základní kyberbezpečnost</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-16">
+            <h2 class="text-2xl font-semibold mb-4 border-b-2 border-blue-500 pb-2 inline-block">Vybrané projekty</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition duration-300">
+                    <h3 class="text-xl font-bold text-white mb-2">MatchDays</h3>
+                    <p class="text-gray-400 mb-4">Webová aplikace s PHP backendem a SQLite pro generování zápasových grafik na sociální sítě.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition duration-300">
+                    <h3 class="text-xl font-bold text-white mb-2">Web pro SDH Hvožďany</h3>
+                    <p class="text-gray-400 mb-4">Upgrade webových stránek s importem CSV dat a interaktivními statistikami.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition duration-300">
+                    <h3 class="text-xl font-bold text-white mb-2">Arduino dálkoměr</h3>
+                    <p class="text-gray-400 mb-4">Přenosný digitální měřič vzdálenosti pomocí Arduino Nano a OLED displeje.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center bg-gray-800 p-8 rounded-lg border border-gray-700 mt-8">
+            <h2 class="text-2xl font-semibold mb-4">Kontakt a interakce</h2>
+            <p class="mb-6 text-gray-300">Můžeš se podívat na můj kód nebo si zkusit kliknout na tlačítko níže.</p>
+            <a href="https://github.com/TVUJ_GITHUB" target="_blank" class="text-blue-400 hover:text-blue-300 underline font-medium mr-4">Můj GitHub profil</a>
+            
+            <button id="actionBtn" class="mt-4 md:mt-0 bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-6 rounded-full transition shadow-lg transform hover:scale-105">
+                Klikni na mě! (0)
+            </button>
+            <p id="messageArea" class="mt-4 text-green-400 font-bold hidden"></p>
+        </section>
+    </main>
+
+    <footer class="text-center py-6 text-gray-500 text-sm mt-12 border-t border-gray-800">
+        &copy; 2026 Matěj Maršík. Vytvořeno pro školní projekt.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
