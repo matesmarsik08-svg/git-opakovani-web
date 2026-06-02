@@ -1,0 +1,29 @@
+/* Tailwind řeší většinu vzhledu, 
+tento soubor splňuje povinnost vlastního CSS a přidává pár detailů navíc. 
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111827; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #374151; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3b82f6; 
+}
