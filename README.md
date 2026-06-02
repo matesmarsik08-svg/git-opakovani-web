@@ -1,16 +1,16 @@
 # Git opakování web
 
-Jednoduchý webový projekt vytvořený jako osobní IT vizitka pro opakování práce s Gitem a GitHubem[cite: 114].
+Jednoduchý webový projekt vytvořený jako osobní IT vizitka pro opakování práce s Gitem a GitHubem.
 
 ## Autor
-Matěj Maršík [cite: 116]
+Matěj Maršík
 
 ## Použité technologie
-- HTML [cite: 118]
-- CSS (Tailwind CSS + custom styl) [cite: 119]
-- JavaScript [cite: 120]
-- Git [cite: 121]
-- GitHub [cite: 122]
+- HTML
+- CSS (Tailwind CSS + custom styl) 
+- JavaScript 
+- Git 
+- GitHub 
 
 ## Spuštění projektu
-Otevřete soubor `index.html` v libovolném webovém prohlížeči[cite: 124]. Není potřeba žádný lokální server.
+Otevřete soubor `index.html` v libovolném webovém prohlížeči. Není potřeba žádný lokální server.
